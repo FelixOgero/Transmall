@@ -176,7 +176,7 @@
     });
     $('.testimonial-slider-two').slick({
 		dots: false,
-		arrows: false,
+		arrows: true,
         infinite: true,
 		autoplaySpeed: 1500,
         autoplay: true,
