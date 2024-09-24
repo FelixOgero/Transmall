@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
   <head>
     <!--====== Required meta tags ======-->
     <meta charset="utf-8" />
@@ -68,15 +69,19 @@
         height: 100%;
         transition: transform 0.3s;
       }
+
       .card:hover {
         transform: translateY(-5px);
       }
     </style>
     <style>
       .service {
-        background: #fff; /* or your bg-base color */
-        border-radius: 0.5rem; /* rounded-4 */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* shadow-effect */
+        background: #fff;
+        /* or your bg-base color */
+        border-radius: 0.5rem;
+        /* rounded-4 */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        /* shadow-effect */
         text-align: center;
         padding: 1rem;
       }
@@ -106,7 +111,7 @@
         color: #192966 !important;
       }
 
-      @media (max-width: 767.98px) {    
+      @media (max-width: 767.98px) {
         .signupbtn {
           margin-top: 10px !important;
           text-decoration: none !important;
@@ -193,13 +198,24 @@
               <nav class="main-menu">
                 <ul>
                   <li class="menu-item"><a href="index.html">Home</a></li>
-                  <li class="menu-item"><a href="about-us.html">About Us</a></li>
-                  <li class="menu-item"><a href="index.html#clients">Clients</a></li>
-                  <li class="menu-item"><a href="pricing-plan.html">Pricing</a></li>
+                  <!-- <li class="menu-item">
+                    <a href="index.html#features_section">Features</a>
+                  </li> -->
+                  <li class="menu-item">
+                    <a href="about-us.html#why-choose-us">About Us</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="index.html#clients">Clients</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="pricing-plan.html">Pricing</a>
+                  </li>
                   <li class="menu-item"><a href="blog.html">Blog</a></li>
-                  <li class="menu-item"><a href="index.html#contact">Contact</a></li>
-                  <li class="menu-item loginbtn" style="margin-left: 5rem;">
-                    <a href="login_signup.html ">Login</a>
+                  <li class="menu-item">
+                    <a href="index.html#contact">Contact</a>
+                  </li>
+                  <li class="menu-item loginbtn" style="margin-left: 5rem">
+                    <a href="login_signup.html">Login</a>
                   </li>
                   <!-- <li class="menu-item main-btn btn-gradient-yellow">
                     <a href="signup.html">Sign Up</a>
@@ -207,10 +223,27 @@
                   <!-- <li class="menu-item main-btn btn-gradient-yellow" style="padding: 8px 16px; font-size: 14px;">
                     <a href="signup.html">Sign Up</a>
                 </li> -->
-                <li class="menu-item main-btn btn-gradient-yellow signupbtn" style="padding: 8px 16px; line-height: 1.2; font-size: 14px; display: inline-block;">
-                  <a href="login_signup.html" style="padding: 0; margin: 0; display: block; width: 100%; height: 100%;">Sign Up</a>
-                </li>
-                
+                  <li
+                    class="menu-item main-btn btn-gradient-yellow signupbtn"
+                    style="
+                      padding: 8px 16px;
+                      line-height: 1.2;
+                      font-size: 14px;
+                      display: inline-block;
+                    "
+                  >
+                    <a
+                      href="login_signup.html"
+                      style="
+                        padding: 0;
+                        margin: 0;
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                      "
+                      >Sign Up</a
+                    >
+                  </li>
                 </ul>
               </nav>
             </div>
@@ -239,134 +272,151 @@
     </header>
     <!--====== End Header Section ======-->
 
-    <!--====== Start Features Section ======-->
-    <section class="features-area features-style-one purple-dark pt-120 pb-70">
-      <div class="shape shape-one scene"><span data-depth="5"></span></div>
-      <div class="shape shape-two"><span></span></div>
-      <div class="shape shape-three scene"><span data-depth="8"></span></div>
-      <div class="shape shape-four scene"><span data-depth="5"></span></div>
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-6">
-            <div
-              class="section-title section-title-white text-center mb-55"
-              data-aos="fade-up"
-              data-aos-delay="40"
-            >
-              <!-- <span class="sub-title sub-title-bg">Explore</span> -->
-               <br>
-              <h2 style="color: #fff !important">
-                Choose the Perfect Plan for Your Business
-              </h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <div
-              class="block-style-three animated-hover-icon mb-40"
-              data-aos="fade-up"
-              data-aos-delay="50"
-            >
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title text-center">Basic</h5>
-                  <h2 class="card-text text-center mb-4">
-                    KES 500<small class="text-muted">/month</small>
-                  </h2>
-                  <ul class="list-unstyled">
-                    <li class="mb-2">
-                      <span class="check-icon">&#10004;</span> Up to 500
-                      transactions/month
-                    </li>
-                    <li class="mb-2">
-                      <span class="check-icon">&#10004;</span> Basic reporting
-                    </li>
-                    <li class="mb-2">
-                      <span class="check-icon">&#10004;</span> Email support
-                    </li>
-                  </ul>
-                  <div class="d-grid">
-                    <button class="btn btn-primary">Get Started</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <div
-              class="block-style-three animated-hover-icon mb-40"
-              data-aos="fade-up"
-              data-aos-delay="60"
-            >
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title text-center">Pro</h5>
-                  <h2 class="card-text text-center mb-4">
-                    KES 1500<small class="text-muted">/month</small>
-                  </h2>
-                  <ul class="list-unstyled">
-                    <li class="mb-2">
-                      <span class="check-icon">&#10004;</span>Unlimited
-                      transactions
-                    </li>
-                    <li class="mb-2">
-                      <span class="check-icon">&#10004;</span> Advanced
-                      reporting
-                    </li>
-                    <li class="mb-2">
-                      <span class="check-icon">&#10004;</span> 24/7 phone
-                      support
-                    </li>
-                  </ul>
-                  <div class="d-grid">
-                    <button class="btn btn-primary">Get Started</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <div
-              class="block-style-three animated-hover-icon mb-40"
-              data-aos="fade-up"
-              data-aos-delay="70"
-            >
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title text-center">Enterprise</h5>
-                  <h2 class="card-text text-center mb-4">
-                    KES 5000<small class="text-muted">/month</small>
-                  </h2>
-                  <ul class="list-unstyled">
-                    <li class="mb-2">
-                      <span class="check-icon">&#10004;</span> Custom solutions
-                    </li>
-                    <li class="mb-2">
-                      <span class="check-icon">&#10004;</span> Dedicated account
-                      manager
-                    </li>
-                    <li class="mb-2">
-                      <span class="check-icon">&#10004;</span> API access
-                    </li>
-                  </ul>
-                  <div class="d-grid">
-                    <button class="btn btn-primary">Get Started</button>
-                  </div>
-                </div>
+    <!--====== Start Hero Section ======-->
+    <section class="hero-area">
+      <div class="breadcrumbs-wrapper blue-dark-gradient">
+        <div class="shape shape-one scene"><span data-depth="2"></span></div>
+        <div class="shape shape-two scene"><span data-depth="3"></span></div>
+        <div class="shape shape-three scene"><span data-depth="4"></span></div>
+        <div class="shape shape-four scene"><span data-depth=".1"></span></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="page-title-text text-center">
+                <h1 class="title">Blog</h1>
+                <ul class="breadcrumbs-link">
+                  <li><a href="index.html">Home</a></li>
+                  <li class="active">Blog</li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!--====== End Features Section ======-->
-    
+    <!--====== End Breadcrumbs Section ======-->
+    <!--====== End Hero Section ======-->
+
+    <!--====== Start Blog Details Section ======-->
+    <section class="blog-details-section pt-120 mb-70">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-10 col-lg-7">
+              <div class="blog-details-wrapper mb-50">
+                <div class="blog-post-item" data-aos="fade-up" data-aos-delay="20">
+                  <div class="img-holder">
+                    <img src="image/finance.jpg" alt="Single Blog Image" style="width: 100%; height: 400px; object-fit: cover; border-radius: 10px;" />
+                  </div>
+                  <div class="post-content">
+                    <div class="post-meta">
+                      <ul>
+                        <li>
+                          <span class="date"><i class="far fa-calendar-alt"></i
+                          ><a href="#">10 Sep, 2024</a></span>
+                        </li>
+                      </ul>
+                    </div>
+                    <h3 class="title">
+                      Transmall POS in the Financial Sector
+                    </h3>
+                    <p>
+                      In today's rapidly evolving financial sector, businesses are in search of reliable and efficient solutions to streamline their operations. Transmall has risen to the challenge by introducing Point of Sale (POS) systems specifically designed to meet the demands of financial services. Our POS systems have revolutionized the way businesses handle transactions, providing a seamless, secure, and user-friendly interface for managing payments and financial data.
+                    </p>
+      
+                    <h3>The Challenge</h3>
+                    <p>
+                      Financial institutions and service providers often face the challenge of handling large volumes of transactions while maintaining security and accuracy. The need for a system that can manage payments, generate real-time reports, and ensure data security is crucial. Many businesses struggled with outdated methods that couldn’t keep up with the dynamic financial environment, leading to inefficiencies and data inaccuracies.
+                    </p>
+      
+                    <h3>The Approach</h3>
+                    <p>
+                      Transmall developed a POS system tailored to the needs of the financial sector. Our solution incorporates cutting-edge technology to ensure secure payment processing, real-time transaction monitoring, and seamless integration with other financial systems. We focused on building a system that not only simplifies transaction management but also ensures compliance with industry standards and security protocols.
+                    </p>
+      
+                    <h3>The Results</h3>
+                    <p>
+                      The introduction of Transmall’s POS system has delivered significant benefits to financial service providers. Key results include:
+                    </p>
+                    <ul>
+                      <li>
+                        <b>Enhanced Transaction Accuracy:</b> The POS system’s real-time monitoring and automated processes have greatly reduced errors in payment handling, ensuring accurate transaction records.
+                      </li>
+                      <li>
+                        <b>Improved Efficiency:</b> Financial institutions have reported faster transaction times, leading to enhanced customer satisfaction and smoother operations.
+                      </li>
+                      <li>
+                        <b>Stronger Security:</b> With advanced encryption and fraud prevention features, Transmall’s POS system provides a secure environment for handling sensitive financial data.
+                      </li>
+                      <li>
+                        <b>Scalability:</b> The POS system is easily scalable, allowing financial institutions to manage growing transaction volumes as their business expands.
+                      </li>
+                    </ul>
+      
+                    <p>
+                      In conclusion, Transmall’s POS solution has proven to be a game-changer for the financial sector, providing businesses with a reliable and efficient way to handle transactions and manage financial data. With its secure, scalable, and user-friendly design, our POS system is helping financial service providers unlock new opportunities for growth and operational excellence.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    <!--====== End Blog Details Section ======-->
+
+    <!--====== Start Newsletter Section ======-->
+    <section class="cta-area cta-style-two black-dark">
+        <div class="shape shape-one"><span></span></div>
+        <div class="shape shape-two"><span></span></div>
+        <svg
+          class="shape shape-three"
+          viewBox="0 0 894 143"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M375.455 760.013C334.267 696.324 308.253 649.707 257.672 604.403C206.367 559.755 130.494 515.764 75.5768 443.54C20.6594 371.317 -14.0254 269.546 5.48474 174.999C24.9949 81.1077 98.7 -6.21765 195.528 0.348145C291.634 6.25739 411.585 106.058 524.31 117.22C637.758 127.725 743.258 50.2484 820.575 54.1879C897.171 58.1274 944.862 144.796 990.386 228.182C1035.91 311.568 1079.99 391.671 1058.31 461.268C1036.63 530.209 949.198 587.988 874.77 626.07C799.62 663.495 738.199 681.879 682.559 738.345C627.642 795.468 579.95 891.329 527.201 898.551C474.451 905.774 417.366 824.358 375.455 760.013Z"
+          />
+        </svg>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div
+                class="text-wrapper pt-90 pb-100"
+                data-aos="fade-up"
+                data-aos-delay="50"
+              >
+                <div class="section-title section-title-white">
+                  <h2 class="text-white">Subscribe now to Our Newsletter</h2>
+                </div>
+                <form>
+                  <div class="form_group">
+                    <input
+                      type="email"
+                      class="form_control"
+                      placeholder="Email Adress...."
+                      name="name"
+                      required
+                    />
+                    <button class="main-btn btn-blue-dark">Subscribe Now</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <!-- <div class="col-lg-6">
+              <div class="cta-img">
+                <img src="image/pos1.jpg" alt="" style="width: 100%; border-radius: 10px;"/>
+              </div>
+            </div> -->
+  
+          </div>
+        </div>
+      </section>
 
     <!--====== Start Footer ======-->
     <footer class="footer-area footer-default" id="contact">
       <div class="container">
-        <div class="footer-widget pt-30 pb-0">
+        <div class="footer-widget pt-100 pb-0">
           <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12">
               <div
@@ -380,7 +430,9 @@
                       src="image/logo-icon-sidebar.svg"
                       style="width: 100px"
                       alt="Site Logo"
-                    /><span><h3 class="widget-title">Transmall</h3></span></a
+                    /><span>
+                      <h3 class="widget-title">Transmall</h3>
+                    </span></a
                   >
                 </div>
                 <p>
@@ -733,6 +785,4 @@
     <script src="assets/js/theme.js"></script>
     <script src="js/wow.js"></script>
   </body>
-
-  <!-- Mirrored from vesencomputing.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Sep 2024 06:05:42 GMT -->
 </html>
